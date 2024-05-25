@@ -5,8 +5,8 @@
     "radioUrl": "http://zabudolsom.sk/iv_live_ip.php",
     "endpoints": {
         "login": "assets/test_login.json",
-        "articlelist": "http://localhost/api/article_list.php?id=",
-        "articleget": "http://localhost/api/article_get.php?id="
+        "articlelist": "http://dev.zabudolsom.sk/api/article_list.php?id=",
+        "articleget": "http://dev.zabudolsom.sk/api/article_get.php?id="
     },
     "menuClassActive": "active selected",
     "menuList": [
