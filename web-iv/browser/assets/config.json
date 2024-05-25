@@ -1,0 +1,67 @@
+{
+    "pageBaseTitle": "Infovojna",
+    "pageBaseTitleSeparator": " - ",
+    "pageBasePath": "/",
+    "radioUrl": "http://zabudolsom.sk/iv_live_ip.php",
+    "endpoints": {
+        "login": "assets/test_login.json",
+        "articlelist": "http://localhost/api/article_list.php?id=",
+        "articleget": "http://localhost/api/article_get.php?id="
+    },
+    "menuClassActive": "active selected",
+    "menuList": [
+        {
+            "title": "Úvod",
+            "link": ""
+        },
+        {
+            "title": "Archív",
+            "link": "article/id"
+        },
+        {
+            "title": "TV",
+            "link": "tv"
+        },
+        {
+            "title": "Podporte nás <sup class=\"badge bg-primary\">2%</sup>",
+            "link": "podporte-nas"
+        },
+        {
+            "title": "Obchod",
+            "link": "obchod"
+        },
+        {
+            "title": "Stretnutie",
+            "link": "auto"
+        },
+        {
+            "title": "Blogy",
+            "link": "blogy"
+        },
+        {
+            "title": "Telegram",
+            "link": "telegram",
+            "className": "iconMenuItem menuIconTelegram"
+        },
+        {
+            "title": "Živé vysielanie",
+            "link": "radio",
+            "className": "iconMenuItem menuIconBroadcast"
+        },
+        {
+            "title": "Prihlásenie",
+            "link": "/login",
+            "className": "iconMenuItem menuIconUser",
+            "showAfterLoggin": false
+        },
+        {
+            "title": "Prihlásený",
+            "link": "/login",
+            "className": "iconMenuItem menuIconUser",
+            "showAfterLoggin": true
+        }
+    ],
+    "buttonArticleLoadMore": "Načítať staršie správy",
+    "buttonArticleLoadMoreStep": 10,
+    "buttonArticleLoadMoreStepStart": -4
+}
